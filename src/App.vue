@@ -1,26 +1,14 @@
 <template>
-  <nav-header />
-  <router-view />
+   <page-layout />
 </template>
 
 <script setup>
-import NavHeader from "./components/nav-header.vue"
+import PageLayout from "./components/page-layout.vue";
 
 </script>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+<style lang="scss">
+#app {
+   height: 100vh
 }
 </style>

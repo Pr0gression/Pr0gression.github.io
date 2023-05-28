@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-row">
+    <div class="NAV_BOX flex flex-row">
         <div class="flex flex-grow justify-center">
             Item 1
         </div>
@@ -9,6 +9,18 @@
     </div>
 </template>
 
-<script setup>
+<script>
+export default {
+    name: 'nav-header',
 
+    setup() {
+
+    }
+}
 </script>
+
+<style lang="scss">
+.NAV_BOX {
+    background-color: $primary;
+}
+</style>
